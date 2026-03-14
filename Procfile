@@ -1,1 +1,1 @@
-web: gunicorn YOUR_PROJECT_NAME.wsgi
+web: gunicorn RandysPawnShop.wsgi
