@@ -1,109 +1,119 @@
 {% extends 'base.html' %}
 {% load static %}
 
-
 {% block title %}
-
+Randy's Pawn Shop
 {% endblock %}
 
 {% block css_files %}
-    <link rel="stylesheet" href="{% static 'style/main.css' %}">
+<link rel="stylesheet" href="{% static 'style/main.css' %}">
 {% endblock %}
 
 {% block content %}
-    <section class="section1">
-        <h1 id="title">Welcome to Randy's Pawn Shop!</h1>
-        <img src="{% static 'images/signsmall.png' %}" alt="sign">
-        <div class="container">
-            <p>We sell high-quality, authentic pawns at affordable prices. Our staff is knowledgeable and attentive,
-                ensuring you have a safe and enjoyable experience.</p>
-        </div>
-        <h2>Our Inventory</h2>
-        <p>Check out our current inventory of pawns:</p>
-    </section>
+
+<section class="section1">
+    <h1 id="title">Welcome to Randy's Pawn Shop!</h1>
+    <img src="{% static 'images/signsmall.png' %}" alt="sign">
+
+    <div class="container">
+        <p>
+            We sell high-quality, authentic pawns at affordable prices.
+            Our staff is knowledgeable and attentive, ensuring you have
+            a safe and enjoyable experience.
+        </p>
+    </div>
+
+    <h2>Our Inventory</h2>
+    <p>Check out our current inventory of pawns:</p>
+</section>
+
 
 <section class="section2">
 <div class="container">
-    <div class="row g-4">
+<div class="row g-4">
 
-        <div class="col-md-4">
-            <div class="card">
-                <img src="{% static 'images/guitar1.png' %}" class="card-img-top" alt="Guitar">
-                <div class="card-body">
-                    <h5 class="card-title">Acoustic Guitars</h5>
-                    <p class="card-text">Example text.</p>
-                    <a href="#" class="btn btn-primary">View Item</a>
-                </div>
-            </div>
-        </div>
+<!-- Card 1 -->
+<div class="col-md-2">
+<div class="card h-100">
+<img src="{% static 'images/guitar1.png' %}" class="card-img-top" alt="Guitar">
+<div class="card-body">
+<h5 class="card-title">Acoustic Guitars</h5>
+<p class="card-text">Example text.</p>
+<a href="#" class="btn btn-primary">View Item</a>
+</div>
+</div>
+</div>
 
-        <div class="col-md-4">
-            <div class="card">
-                <img src="{% static 'images/ring.png' %}" class="card-img-top" alt="Ring">
-                <div class="card-body">
-                    <h5 class="card-title">Jewelry</h5>
-                    <p class="card-text">Example text.</p>
-                    <a href="#" class="btn btn-primary">View Item</a>
-                </div>
-            </div>
-        </div>
+<!-- Card 2 -->
+<div class="col-md-2">
+<div class="card h-100">
+<img src="{% static 'images/ring.png' %}" class="card-img-top" alt="Ring">
+<div class="card-body">
+<h5 class="card-title">Jewelry</h5>
+<p class="card-text">Example text.</p>
+<a href="#" class="btn btn-primary">View Item</a>
+</div>
+</div>
+</div>
 
-        <!-- New Card 3 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="{% static 'images/watch.png' %}" class="card-img-top" alt="Watch">
-                <div class="card-body">
-                    <h5 class="card-title">Watches</h5>
-                    <p class="card-text">Example text.</p>
-                    <a href="#" class="btn btn-primary">View Item</a>
-                </div>
-            </div>
-        </div>
+<!-- Card 3 -->
+<div class="col-md-2">
+<div class="card h-100">
+<img src="{% static 'images/watch.png' %}" class="card-img-top" alt="Watch">
+<div class="card-body">
+<h5 class="card-title">Watches</h5>
+<p class="card-text">Example text.</p>
+<a href="#" class="btn btn-primary">View Item</a>
+</div>
+</div>
+</div>
 
-        <!-- New Card 4 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="{% static 'images/camera.png' %}" class="card-img-top" alt="Camera">
-                <div class="card-body">
-                    <h5 class="card-title">Cameras</h5>
-                    <p class="card-text">Example text.</p>
-                    <a href="#" class="btn btn-primary">View Item</a>
-                </div>
-            </div>
-        </div>
+<!-- Card 4 -->
+<div class="col-md-2">
+<div class="card h-100">
+<img src="{% static 'images/camera.png' %}" class="card-img-top" alt="Camera">
+<div class="card-body">
+<h5 class="card-title">Cameras</h5>
+<p class="card-text">Example text.</p>
+<a href="#" class="btn btn-primary">View Item</a>
+</div>
+</div>
+</div>
 
-        <!-- New Card 5 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="{% static 'images/laptop.png' %}" class="card-img-top" alt="Laptop">
-                <div class="card-body">
-                    <h5 class="card-title">Laptops</h5>
-                    <p class="card-text">Example text.</p>
-                    <a href="#" class="btn btn-primary">View Item</a>
-                </div>
-            </div>
-        </div>
+<!-- Card 5 -->
+<div class="col-md-2">
+<div class="card h-100">
+<img src="{% static 'images/laptop.png' %}" class="card-img-top" alt="Laptop">
+<div class="card-body">
+<h5 class="card-title">Laptops</h5>
+<p class="card-text">Example text.</p>
+<a href="#" class="btn btn-primary">View Item</a>
+</div>
+</div>
+</div>
 
-        <!-- New Card 6 -->
-        <div class="col-md-4">
-            <div class="card">
-                <img src="{% static 'images/tools.png' %}" class="card-img-top" alt="Tools">
-                <div class="card-body">
-                    <h5 class="card-title">Tools</h5>
-                    <p class="card-text">Example text.</p>
-                    <a href="#" class="btn btn-primary">View Item</a>
-                </div>
-            </div>
-        </div>
+<!-- Card 6 -->
+<div class="col-md-2">
+<div class="card h-100">
+<img src="{% static 'images/tools.png' %}" class="card-img-top" alt="Tools">
+<div class="card-body">
+<h5 class="card-title">Tools</h5>
+<p class="card-text">Example text.</p>
+<a href="#" class="btn btn-primary">View Item</a>
+</div>
+</div>
+</div>
 
-    </div>
+</div>
 </div>
 </section>
 
-    <section class="section3">
-        <h2>Contact Us</h2>
-        <p>Email: randy@randys.com</p>
-        <p>Phone: (123) 456-7890</p>
-        <p>Address: 123 Main St, Anytown, USA</p>
-    </section>
+
+<section class="section3">
+<h2>Contact Us</h2>
+<p>Email: randy@randys.com</p>
+<p>Phone: (123) 456-7890</p>
+<p>Address: 123 Main St, Anytown, USA</p>
+</section>
+
 {% endblock %}
