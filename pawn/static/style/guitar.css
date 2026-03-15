@@ -1,0 +1,14 @@
+body {
+    background-color: burlywood;
+}
+.section1 {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+
+}
+.section2 {
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+}

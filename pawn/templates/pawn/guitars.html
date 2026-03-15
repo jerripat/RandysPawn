@@ -1,10 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h2>This is a where you enter your inventory for sale</h2>
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Guitar Haven{% endblock %}
+ {% block css_files %}
+    <link rel="stylesheet" href="{% static 'style/guitar.css' %}">
+ {% endblock %}
+{% block content %}
+    <section class="section1">
+<div class="container">
+    <h1>Guitar Haven</h1>
+    <p>
+        Welcome to Guitar Haven, a place where you can find guitars, guitarists,
+        and guitar-related resources. Here's a list of popular guitar brands and
+        their bestselling guitars:
+    </p>
+
+    <div class="card mb-4" style="width: 18rem;">
+        <img src="{% static 'images/gibsonsg.png' %}" class="card-img-top" alt="SG">
+        <div class="card-body">
+            <h5 class="card-title">Gibson SG</h5>
+            <p class="card-text">
+                Gibson guitars are known the world over for their quality.
+            </p>
+            <a href="https://gibson.com" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</div>
+</section>
+    <section class="section2">
+    <div class="row">
+        <div class="col-sm-4">
+
+         <div class="card" style="width: 18rem;">
+    <img src="{% static 'images/gibsonsg.png' %}" class="card-img-top" alt="SG">
+
+    <div class="card-body">
+        <h5 class="card-title">Gibson SG</h5>
+
+        <p class="card-text">
+            Gibson guitars are known the world over for their quality.
+        </p>
+
+        <p class="card-text">
+            Gibson is a renowned American guitar manufacturer, known for its innovative
+            designs and sound. They have a strong reputation for producing high-quality
+            guitars that are both beautiful and functional.
+        </p>
+
+        <a href="https://www.gibson.com/" class="btn btn-primary">
+            Learn more about Gibson
+        </a>
+    </div>
+</div>
+</div>
+    </div>
+    </section>
+{% endblock %}
