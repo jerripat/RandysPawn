@@ -5,3 +5,6 @@ def index(request):
 
 def about(request):
     return render(request, "pawn/about.html")
+
+def guitars(request):
+    return render(request, "pawn/guitars.html")

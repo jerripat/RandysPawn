@@ -37,7 +37,7 @@ Randy's Pawn Shop
                     <div class="card-body">
                         <h5 class="card-title">Acoustic Guitars</h5>
                         <p class="card-text">Example text.</p>
-                        <a href="#" class="btn btn-primary">View Item</a>
+                        <a href="{% url 'pawn:guitars' %}" class="btn btn-primary">View Item</a>
                     </div>
                 </div>
             </div>
@@ -106,6 +106,15 @@ Randy's Pawn Shop
     <p>Email: randy@randys.com</p>
     <p>Phone: (123) 456-7890</p>
     <p>Address: 123 Main St, Anytown, USA</p>
+
+    <iframe
+      src="https://www.google.com/maps?q=fortsmiith&output=embed"
+      width="10%"
+      height="40"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
 </section>
 
 {% endblock %}
