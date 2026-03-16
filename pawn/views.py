@@ -8,3 +8,6 @@ def about(request):
 
 def guitars(request):
     return render(request, "pawn/guitars.html")
+
+def checkout(request):
+    return render(request, "pawn/checkout.html")

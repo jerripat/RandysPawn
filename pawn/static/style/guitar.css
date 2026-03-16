@@ -2,7 +2,7 @@ body {
     background-color: burlywood;
 }
 .section1 {
-    background-color: darkblue;
+     background: linear-gradient(to right, #154a79, #4091cc);
     color: white;
     padding: 20px;
 
