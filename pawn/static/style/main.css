@@ -39,9 +39,10 @@ p {
 }
 
 .section3 {
-    background-color: #136be1;
+    background-color:#226285;
     padding: 20px;
     text-align: center;
+    margin-bottom:20px;
 }
 
 .section3 p {
@@ -65,4 +66,11 @@ footer {
     color: white;
     text-align: center;
 
+}
+.map-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1a3f68;
+    padding: 20px;
+    margin-top: 20px;
 }
