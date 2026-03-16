@@ -21,7 +21,7 @@ p {
     height: auto;
     margin-bottom: 20px;
     border: 2px solid #bcc2cb;
-    border-radius: 100px;
+    border-radius: 10px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
 }
 
