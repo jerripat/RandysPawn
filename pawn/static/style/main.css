@@ -17,12 +17,12 @@ p {
 }
 
 .section1 img {
-    width: 300px;
+    width: 350px;
     height: auto;
     margin-bottom: 20px;
-    border: 5px solid #051e41;
+    border: 2px solid #bcc2cb;
     border-radius: 100px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
 }
 
 .section2 {
@@ -58,6 +58,7 @@ p {
     height: 200px;
     object-fit: cover;
 }
+
 footer {
     background-color: #1a3f68;
     padding: 20px;
