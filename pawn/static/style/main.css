@@ -14,6 +14,7 @@ p {
     background-image: linear-gradient(to right, #0b3860, #344b9b);
     padding: 20px;
     text-align: center;
+    height: 300px;
 }
 
 .section1 img {
